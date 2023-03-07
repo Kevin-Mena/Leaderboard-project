@@ -1,0 +1,34 @@
+h1 {
+  color: black;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+table {
+  border: 1px solid black;
+  width: 50%;
+  height: auto;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+#error {
+  display: none;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 1rem;
+}
+
+#addscore {
+  margin-left: 7.33rem;
+}
