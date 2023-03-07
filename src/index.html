@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <div class="content">
+      <div class="scores-table">
+        <h2>
+          Recent scores
+          <span class="refresh"
+            ><button type="submit" id="btn-refresh">Refresh</button></span
+          >
+        </h2>
+        <table>
+          <tbody class="tbody">
+            <tr>
+              <td>Name:</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>78</td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>125</td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>77</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="scores">
+        <h4>Add your score</h4>
+        <form id="add-score">
+          <div class="div-form">
+            <div id="error">Please fill in all fields!</div>
+            <label for="score">
+              <input
+                type="text"
+                class="score"
+                name="score"
+                placeholder="Your name"
+              />
+            </label>
+            <label for="score">
+              <input
+                type="number"
+                class="score"
+                name="score"
+                placeholder="Your score"
+              />
+            </label>
+            <div class="btn-add">
+              <button type="submit" id="addscore">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
