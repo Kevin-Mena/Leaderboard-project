@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard project</title>
-  <script defer src="bundled64bdebd7006fd97e906.js"></script></head>
+  <script defer src="bundlec5900f076119d4921fed.js"></script></head>
   <body>
-    <h1>Leaderboard project</h1>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <div class="content">
+      <div class="scores-table">
+        <h2>
+          Recent scores
+          <span class="refresh"
+            ><button type="submit" id="btn-refresh">Refresh</button></span
+          >
+        </h2>
+        <table>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div class="scores">
+        <h4>Add your score</h4>
+        <form id="add-score">
+          <div class="div-form">
+            <div id="error"></div>
+            <label for="name">
+              <input
+                type="text"
+                id="name"
+                class="name"
+                name="name"
+                placeholder="Your name"
+              />
+            </label>
+            <label for="score">
+              <input
+                type="number"
+                id="score"
+                class="score"
+                name="score"
+                placeholder="Your score"
+              />
+            </label>
+            <div class="btn-add">
+              <button type="submit" id="addscore">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./src/index.js"></script>
   </body>
 </html>

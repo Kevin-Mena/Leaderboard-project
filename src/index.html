@@ -19,54 +19,27 @@
           >
         </h2>
         <table>
-          <tbody class="tbody">
-            <tr>
-              <td>Name:</td>
-              <td>100</td>
-            </tr>
-            <tr>
-              <td>Name:</td>
-              <td>20</td>
-            </tr>
-            <tr>
-              <td>Name:</td>
-              <td>50</td>
-            </tr>
-            <tr>
-              <td>Name:</td>
-              <td>78</td>
-            </tr>
-            <tr>
-              <td>Name:</td>
-              <td>100</td>
-            </tr>
-            <tr>
-              <td>Name:</td>
-              <td>125</td>
-            </tr>
-            <tr>
-              <td>Name:</td>
-              <td>77</td>
-            </tr>
-          </tbody>
+          <tbody id="tbody"></tbody>
         </table>
       </div>
       <div class="scores">
         <h4>Add your score</h4>
         <form id="add-score">
           <div class="div-form">
-            <div id="error">Please fill in all fields!</div>
-            <label for="score">
+            <div id="error"></div>
+            <label for="name">
               <input
                 type="text"
-                class="score"
-                name="score"
+                id="name"
+                class="name"
+                name="name"
                 placeholder="Your name"
               />
             </label>
             <label for="score">
               <input
                 type="number"
+                id="score"
                 class="score"
                 name="score"
                 placeholder="Your score"
