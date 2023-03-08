@@ -1,16 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;500&display=swap');
+
+/* GLOBAL STYLES */
+:root {
+  --ff-primary: 'Lato', sans-serif;
+  --ff-secondary: 'Poppins', sans-serif;
+  --primary-color-black: hsl(205, 63%, 5%);
+  --primary-color-blue: hsl(205, 74%, 60%);
+  --primary-color-white: #fff;
+  --primary-color-grey: #e8e8e8;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --all-transition: all 0.5s linear;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--primary-color-grey);
+}
+
 h1 {
-  color: black;
+  color: var(--primary-color-white);
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+  box-shadow: var(--shadow);
+  background-color: var(--primary-color-blue);
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
 }
 
 table {
-  border: 1px solid black;
+  border: 1px solid var(--primary-color-white);
+  box-shadow: var(--shadow);
   width: 50%;
   height: auto;
+  margin-top: 1rem;
+  border-radius: 3px;
+}
+
+.iscore {
+  margin-bottom: 1rem;
 }
 
 tr:nth-child(even) {
@@ -27,8 +74,38 @@ label {
 
 input {
   margin-bottom: 1rem;
+  border: none;
+  height: 1.33rem;
+  border-radius: 3px;
+  box-shadow: var(--shadow);
 }
 
 #addscore {
   margin-left: 7.33rem;
+  background-color: var(--primary-color-blue);
+  color: var(--primary-color-white);
+  border: none;
+  border-radius: 3px;
+  padding: 4px;
+  transition: var(--all-transition);
+}
+
+#btn-refresh {
+  background-color: var(--primary-color-blue);
+  color: var(--primary-color-white);
+  border: none;
+  border-radius: 3px;
+  padding: 4px;
+  margin-left: 1rem;
+  transition: var(--all-transition);
+}
+
+#addscore:hover,
+#btn-refresh:hover {
+  background-color: var(--primary-color-white);
+  color: var(--primary-color-blue);
+}
+
+input::placeholder {
+  padding: 2px;
 }
