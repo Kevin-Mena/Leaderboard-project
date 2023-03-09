@@ -4,8 +4,8 @@ const addGame = async (name, score) => {
   const row = document.createElement('tr');
   row.innerHTML += `
    <tr>
-        <td>Name: ${name}</span></td>
-        <td>Score: ${score}</span></td>
+        <td>Name: ${name}</td>
+        <td>Score: ${score}</td>
      </tr>
   `;
   body.appendChild(row);
