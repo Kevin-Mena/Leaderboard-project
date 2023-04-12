@@ -1,4 +1,4 @@
-# Leaderboard
+## Leaderboard App
 
 <a name="readme-top"></a>
 
@@ -17,7 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Visit my website](https://kevin-mena.github.io/Personal-Portfolio-Website/)
+  - [🚀 Visit my website](#)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,9 +33,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 [Leaderboard App <a name="about-project"></a>
 
-\*\*[Leaderboard] is a simple app where users can add names and scores of games and get stored in a Leaderboard API/
+\*\*[Leaderboard App] is a leaderboard website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,19 +54,23 @@
     <li><a href="https://https://developer.mozilla.org">CSS</a></li>
   </ul>
 </details>
-
+<details>
+  <summary>Javascript</summary>
+  <ul>
+    <li><a href="https://https://developer.mozilla.org">CSS</a></li>
+  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Local Storage]**
-- **[APIs]**
+- **[Homepage]**
+- **[Todo List feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo" ></a>
 
-- [Live Demo Link](Coming soon...)
+- [Live Demo](https://leaderboard-webapp.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,25 +81,45 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-A text-editor like VS code or Sublime Editor and a github account.
+A text-editor of your own choice.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+Example commands:
+
+```sh
+  cd <desired folder to contain project>
+  git clone <https://github.com/Kevin-Mena/Leaderboard-project.git>
+
+```
+
 ### Install
 
-Install this project with git bash or github desktop.
+Install this project with:
+
+```sh
+npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
-$git clone to clone the project to your desktop.
+
+- Open the terminal and execute
+
+```sh
+npm start
+```
 
 ### Run tests
 
-To run tests, run the following command:
-bin/rails test test/models/article_test.rb
+- On the terminal
+
+```sh
+npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,16 +128,13 @@ bin/rails test test/models/article_test.rb
 👤 **Kevin Okoth**
 
 - GitHub: [@githubhandle](https://github.com/Kevin-Mena)
-- Twitter: [@twitterhandle](https://twitter.com/Fmenawende)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kevin-okoth-19407119b/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kevin-okoth/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[UI]**
-- [ ] **[Add&Delete Features]**
-- [ ] **[Visual Support]**
+- [ ] **[Better UI design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +142,7 @@ bin/rails test test/models/article_test.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Kevin-Mena/Leaderboard-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,12 +160,12 @@ Thanks to everyone whose idea and codebase was used in this project🙏
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
+N/A
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
